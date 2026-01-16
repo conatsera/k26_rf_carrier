@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 101.6 49.53)
-		(size 39.37 43.18)
+		(at 48.26 25.4)
+		(size 30.48 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "02e98d89-84c9-48d4-b3b2-5c35df0379e5")
 		(property "Sheetname" "SoM Connectors"
-			(at 101.6 48.8184 0)
+			(at 48.26 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,332 @@
 			)
 		)
 		(property "Sheetfile" "SoM_Connectors.kicad_sch"
-			(at 101.6 93.2946 0)
+			(at 48.26 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 48.26 27.94 180)
+			(uuid "000cc989-d9dc-4a7c-8b52-4c1463114e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FWUEN_L" input
+			(at 48.26 72.39 180)
+			(uuid "977849d3-5e0d-41c2-b0f2-0db8975b8213")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCK" input
+			(at 78.74 53.34 0)
+			(uuid "79e28eed-22fd-4162-97c2-738de4ca60b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 78.74 55.88 0)
+			(uuid "fc5ca636-088a-4847-a09c-03db0a86632e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_EP_RST" input
+			(at 78.74 69.85 0)
+			(uuid "d660f13f-3e9f-427c-aa7e-3c341e39edd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMU_PWROFF" input
+			(at 48.26 69.85 180)
+			(uuid "b4b1dbdf-7f40-4baf-8d0d-16bf3f268fee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PMU_WDO" input
+			(at 78.74 36.83 0)
+			(uuid "b916ca76-48c6-4ffc-803d-f0dc5bdd2a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PSS_ALT_REFCLK" input
+			(at 48.26 76.2 180)
+			(uuid "9e93ad17-68c6-4107-95d2-43388f099856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PS_POR_L" input
+			(at 48.26 53.34 180)
+			(uuid "f10f6b33-fea7-4b8c-8294-d83ffb21bd15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PS_SRST_L" input
+			(at 48.26 55.88 180)
+			(uuid "b018dae3-334b-4002-aa72-70109af9ebc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWRGD_FPD" input
+			(at 78.74 27.94 0)
+			(uuid "6103c237-ca28-47e5-94ed-1a33eb270596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWRGD_LPD" input
+			(at 78.74 30.48 0)
+			(uuid "093a5829-f72b-4d10-b13c-d3cd06d70625")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWRGD_PL" input
+			(at 78.74 33.02 0)
+			(uuid "9a466c59-76d0-4d5d-88ea-aba607ee6212")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWROFF_L" input
+			(at 48.26 59.69 180)
+			(uuid "07818945-1c22-446f-8fb1-fdd584c11f4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0_RXD" input
+			(at 78.74 40.64 0)
+			(uuid "4cf54299-0f50-46ac-8475-a0dc364b478b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART0_TXD" input
+			(at 78.74 43.18 0)
+			(uuid "ae4a1867-d0c5-43db-9b6e-6433910b1bed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_RXD" input
+			(at 78.74 46.99 0)
+			(uuid "fc66453d-772b-42ec-928a-2dc8cdce16e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_TXD" input
+			(at 78.74 49.53 0)
+			(uuid "9cf56793-33c7-4263-9d9f-136ab200aa03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCCOEN_PL" input
+			(at 48.26 63.5 180)
+			(uuid "78954a30-afcf-4929-af54-6afb4ccfe885")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCOEN_PS" input
+			(at 48.26 66.04 180)
+			(uuid "96587fcb-8082-46b8-96e3-ba26d890e414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_HDA" input
+			(at 48.26 40.64 180)
+			(uuid "db5f02d9-dad3-4768-ad7f-e909c93daf1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_HDB" input
+			(at 48.26 43.18 180)
+			(uuid "2889c947-feea-4261-9925-8616a8a5a460")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_HDC" input
+			(at 48.26 45.72 180)
+			(uuid "1095704b-019e-4866-8343-d7fa2b1f93ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_HPA" input
+			(at 48.26 31.75 180)
+			(uuid "e6175744-3ab7-4d3e-82b9-01c069b9c812")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_HPB" input
+			(at 48.26 34.29 180)
+			(uuid "9db97ca3-7dd4-4a92-9bf7-a95dbe5597a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_HPC" input
+			(at 48.26 36.83 180)
+			(uuid "1420b7b8-6d63-4fe4-9ef2-4ef730aaace9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GEM1" input
+			(at 78.74 59.69 0)
+			(uuid "254eb9fd-dfff-4489-980c-d6fcfc56cb9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG" input
+			(at 48.26 49.53 180)
+			(uuid "bb0ac413-a748-4c9a-ac62-9830cc62dd34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE0" input
+			(at 78.74 72.39 0)
+			(uuid "9f8cefce-ce3b-4403-ad58-d6f8933941ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE1" input
+			(at 78.74 74.93 0)
+			(uuid "687c5190-a33d-4287-94db-581df05e2700")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB0" input
+			(at 78.74 63.5 0)
+			(uuid "869be811-e4e0-42bb-aba9-bfa2a297771a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB1" input
+			(at 78.74 66.04 0)
+			(uuid "dfb39910-76e6-49ea-840a-d8cb86a66ac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
