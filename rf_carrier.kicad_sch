@@ -5,6 +5,26 @@
 	(uuid "1d5a0702-b67e-4abd-9b88-5b7f3ea07af2")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 78.74 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87267c4e-7e97-4d53-9dc7-8cbb9da7dbd8")
+	)
+	(bus
+		(pts
+			(xy 78.74 63.5) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf81c3e-60cd-4998-b372-748045bee90b")
+	)
 	(sheet
 		(at 48.26 25.4)
 		(size 30.48 54.61)
@@ -299,16 +319,6 @@
 				(justify left)
 			)
 		)
-		(pin "GEM1" input
-			(at 78.74 59.69 0)
-			(uuid "254eb9fd-dfff-4489-980c-d6fcfc56cb9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "JTAG" input
 			(at 48.26 49.53 180)
 			(uuid "bb0ac413-a748-4c9a-ac62-9830cc62dd34")
@@ -319,9 +329,9 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE0" input
-			(at 78.74 72.39 0)
-			(uuid "9f8cefce-ce3b-4403-ad58-d6f8933941ea")
+		(pin "GEM1{RGMII}" input
+			(at 78.74 59.69 0)
+			(uuid "7c744e21-8dc7-4974-a7b1-ddc7a2151c8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,9 +339,9 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE1" input
-			(at 78.74 74.93 0)
-			(uuid "687c5190-a33d-4287-94db-581df05e2700")
+		(pin "PCIE0{PCIE}" input
+			(at 78.74 73.66 0)
+			(uuid "87c0b17d-a5f5-40bb-810f-fb26c5ec83ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,9 +349,19 @@
 				(justify right)
 			)
 		)
-		(pin "USB0" input
+		(pin "PCIE1{PCIE}" input
+			(at 78.74 76.2 0)
+			(uuid "efa38acf-5efe-4697-a7c1-c346fd4d3e41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB0{USB}" input
 			(at 78.74 63.5 0)
-			(uuid "869be811-e4e0-42bb-aba9-bfa2a297771a")
+			(uuid "d468ac5a-ab1a-48bb-8623-2e837dfeb100")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,9 +369,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB1" input
+		(pin "USB1{USB}" input
 			(at 78.74 66.04 0)
-			(uuid "dfb39910-76e6-49ea-840a-d8cb86a66ac5")
+			(uuid "5ccd39fe-99cd-4ef9-80bd-aa62c6c99900")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,6 +383,68 @@
 			(project "rf_carrier"
 				(path "/1d5a0702-b67e-4abd-9b88-5b7f3ea07af2"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 60.96)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "695dbaa7-e029-4db6-9fc9-de61d9600c0e")
+		(property "Sheetname" "USB"
+			(at 91.44 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 91.44 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB0{USB}" input
+			(at 91.44 63.5 180)
+			(uuid "ed46b584-e0d3-431f-812d-0fcae8b17f40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB1{USB}" input
+			(at 91.44 66.04 180)
+			(uuid "cd23604b-923e-42a0-87ae-00d19d71db3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rf_carrier"
+				(path "/1d5a0702-b67e-4abd-9b88-5b7f3ea07af2"
+					(page "3")
 				)
 			)
 		)

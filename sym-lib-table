@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/symbols/parts.kicad_sym")(options "")(descr ""))
   (lib (name "Toshiba")(type "KiCad")(uri "${KIPRJMOD}/symbols/Toshiba.kicad_sym")(options "")(descr ""))
+  (lib (name "onsemi")(type "KiCad")(uri "${KIPRJMOD}/symbols/onsemi.kicad_sym")(options "")(descr ""))
 )

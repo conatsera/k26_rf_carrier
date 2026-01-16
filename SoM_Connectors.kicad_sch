@@ -9317,26 +9317,18 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "GEM1"
+	(bus_alias "JTAG"
+		(members "TMS" "TDO" "TDI" "TCK")
+	)
+	(bus_alias "PCIE"
+		(members "REFCLK_P" "REFCLK_N" "RX_P" "RX_N" "TX_P" "TX_N")
+	)
+	(bus_alias "RGMII"
 		(members "MDC" "MDIO" "TX_CLK" "TXD[0..3]" "TX_CTL" "RX_CLK" "RXD[0..3]"
 			"RX_CTL"
 		)
 	)
-	(bus_alias "JTAG"
-		(members "TMS" "TDO" "TDI" "TCK")
-	)
-	(bus_alias "PCIE0"
-		(members "REFCLK_P" "REFCLK_N" "RX_P" "RX_N" "TX_P" "TX_N")
-	)
-	(bus_alias "PCIE1"
-		(members "REFCLK_P" "REFCLK_N" "RX_P" "RX_N" "TX_P" "TX_N")
-	)
-	(bus_alias "USB0"
-		(members "RST" "CLK_IN" "DIR" "NXT" "STP" "TX_DATA[0..7]" "REFCLK_P" "REFCLK_N"
-			"SSRX_P" "SSRX_N" "SSTX_P" "SSTX_N" "RESET"
-		)
-	)
-	(bus_alias "USB1"
+	(bus_alias "USB"
 		(members "RST" "CLK_IN" "DIR" "NXT" "STP" "TX_DATA[0..7]" "REFCLK_P" "REFCLK_N"
 			"SSRX_P" "SSRX_N" "SSTX_P" "SSTX_N" "RESET"
 		)
@@ -14423,6 +14415,16 @@
 		)
 		(uuid "c2fdc795-f930-4d25-bf8a-9caec9f312f0")
 	)
+	(bus
+		(pts
+			(xy 238.76 199.39) (xy 240.03 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eaba4d-99b2-4510-9f69-2e48109c9528")
+	)
 	(wire
 		(pts
 			(xy 325.12 104.14) (xy 325.12 111.76)
@@ -15203,6 +15205,16 @@
 		)
 		(uuid "fe3a90e0-4f17-487b-a7c1-9072973dfc80")
 	)
+	(bus
+		(pts
+			(xy 238.76 196.85) (xy 240.03 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7c2f4d-37f0-48f8-b6ed-435dcbd52705")
+	)
 	(wire
 		(pts
 			(xy 187.96 95.25) (xy 189.23 95.25)
@@ -15903,7 +15915,7 @@
 		)
 		(uuid "f414bb3f-b8fc-467c-ae2d-5f74a3de73aa")
 	)
-	(hierarchical_label "PCIE1"
+	(hierarchical_label "PCIE1{PCIE}"
 		(shape input)
 		(at 44.45 156.21 180)
 		(effects
@@ -15914,7 +15926,7 @@
 		)
 		(uuid "00ef1d77-6456-48ff-95c9-75b47d701f00")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
 		(at 241.3 226.06 0)
 		(effects
@@ -15925,7 +15937,7 @@
 		)
 		(uuid "0b25a42e-5bb8-4539-bc57-a10f1f17db55")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
 		(at 241.3 179.07 0)
 		(effects
@@ -15958,9 +15970,9 @@
 		)
 		(uuid "1a2ec217-a0b1-4029-8010-f8b217636b7d")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
-		(at 238.76 196.85 0)
+		(at 240.03 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15969,7 +15981,7 @@
 		)
 		(uuid "1eaaf6d0-e063-4e6e-98a1-290e98d82775")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 170.18 189.23 180)
 		(effects
@@ -16002,7 +16014,7 @@
 		)
 		(uuid "27536668-02a0-4d4c-ada9-93619a2a6e3d")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 39.37 166.37 180)
 		(effects
@@ -16035,7 +16047,7 @@
 		)
 		(uuid "3472c31a-f353-4e2d-bace-53316966723f")
 	)
-	(hierarchical_label "PCIE1"
+	(hierarchical_label "PCIE1{PCIE}"
 		(shape input)
 		(at 172.72 220.98 180)
 		(effects
@@ -16046,7 +16058,7 @@
 		)
 		(uuid "3c46dada-d24c-4f19-9c97-9a272a095dab")
 	)
-	(hierarchical_label "GEM1"
+	(hierarchical_label "GEM1{RGMII}"
 		(shape input)
 		(at 109.22 129.54 0)
 		(effects
@@ -16057,7 +16069,7 @@
 		)
 		(uuid "3d13fffc-041c-46f8-9078-59a710c04d88")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 171.45 210.82 180)
 		(effects
@@ -16112,7 +16124,7 @@
 		)
 		(uuid "4ecdf74d-eaac-4e30-b565-b8a15e2e4dfe")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
 		(at 170.18 179.07 180)
 		(effects
@@ -16123,7 +16135,7 @@
 		)
 		(uuid "5a81dad9-81d8-4519-9fa9-0fceb2db8f23")
 	)
-	(hierarchical_label "GEM1"
+	(hierarchical_label "GEM1{RGMII}"
 		(shape input)
 		(at 43.18 127 180)
 		(effects
@@ -16145,7 +16157,7 @@
 		)
 		(uuid "61f31214-781c-4262-bdf9-6a567f53fffd")
 	)
-	(hierarchical_label "PCIE0"
+	(hierarchical_label "PCIE0{PCIE}"
 		(shape input)
 		(at 44.45 176.53 180)
 		(effects
@@ -16156,7 +16168,7 @@
 		)
 		(uuid "705d31e1-b896-435a-9784-349126560390")
 	)
-	(hierarchical_label "GEM1"
+	(hierarchical_label "GEM1{RGMII}"
 		(shape input)
 		(at 172.72 168.91 180)
 		(effects
@@ -16167,7 +16179,7 @@
 		)
 		(uuid "71c2c190-28b6-4f7e-8a1f-1755bdabeaca")
 	)
-	(hierarchical_label "PCIE1"
+	(hierarchical_label "PCIE1{PCIE}"
 		(shape input)
 		(at 113.03 166.37 0)
 		(effects
@@ -16200,7 +16212,7 @@
 		)
 		(uuid "7cd1a0d8-0aac-4956-9ba2-d0832dfac797")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
 		(at 110.49 176.53 0)
 		(effects
@@ -16288,7 +16300,7 @@
 		)
 		(uuid "a4a75819-2cf9-4217-9b70-1aee596c9efa")
 	)
-	(hierarchical_label "PCIE0"
+	(hierarchical_label "PCIE0{PCIE}"
 		(shape input)
 		(at 168.91 200.66 180)
 		(effects
@@ -16299,7 +16311,7 @@
 		)
 		(uuid "a5c67416-27bf-47c9-8a1b-3b88efc5b3a6")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
 		(at 111.76 144.78 0)
 		(effects
@@ -16310,7 +16322,7 @@
 		)
 		(uuid "a942cd4a-3d64-482d-b8ea-70ae8a5f2ccb")
 	)
-	(hierarchical_label "PCIE0"
+	(hierarchical_label "PCIE0{PCIE}"
 		(shape input)
 		(at 107.95 186.69 0)
 		(effects
@@ -16321,7 +16333,7 @@
 		)
 		(uuid "ab79f9ad-c7a9-4dab-8ed8-07da367f12cd")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 240.03 210.82 0)
 		(effects
@@ -16343,7 +16355,7 @@
 		)
 		(uuid "bc98ec36-eff5-4d3e-b686-57003213951d")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 40.64 144.78 180)
 		(effects
@@ -16486,7 +16498,7 @@
 		)
 		(uuid "e5494107-d6d2-4426-8de3-a10c6497f961")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 241.3 189.23 0)
 		(effects
@@ -16497,9 +16509,9 @@
 		)
 		(uuid "ecb61ed0-1bb5-4ef5-8557-3a9e2ccd15da")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
-		(at 238.76 199.39 0)
+		(at 240.03 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16508,7 +16520,7 @@
 		)
 		(uuid "eec08927-78fe-45a8-96ad-e3ec7d003c66")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 111.76 154.94 0)
 		(effects
@@ -16519,7 +16531,7 @@
 		)
 		(uuid "f15102d2-b5a3-415b-9d36-f2f5879d56d0")
 	)
-	(hierarchical_label "GEM1"
+	(hierarchical_label "GEM1{RGMII}"
 		(shape input)
 		(at 240.03 168.91 0)
 		(effects
@@ -16563,7 +16575,7 @@
 		)
 		(uuid "fd63db9f-ffff-4038-9168-af2989cfb56e")
 	)
-	(hierarchical_label "USB0"
+	(hierarchical_label "USB0{USB}"
 		(shape input)
 		(at 40.64 134.62 180)
 		(effects
