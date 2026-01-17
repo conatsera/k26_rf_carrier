@@ -5,4 +5,5 @@
   (lib (name "Samtec")(type "KiCad")(uri "${KIPRJMOD}/footprints/Samtec.pretty")(options "")(descr ""))
   (lib (name "Toshiba")(type "KiCad")(uri "${KIPRJMOD}/footprints/Toshiba.pretty")(options "")(descr ""))
   (lib (name "onsemi")(type "KiCad")(uri "${KIPRJMOD}/footprints/onsemi.pretty")(options "")(descr ""))
+  (lib (name "GCT")(type "KiCad")(uri "${KIPRJMOD}/footprints/GCT.pretty")(options "")(descr ""))
 )
