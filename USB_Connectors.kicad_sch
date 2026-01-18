@@ -8552,16 +8552,6 @@
 		)
 		(uuid "c66a0e57-7519-419a-8ab6-42bbf01dce1d")
 	)
-	(label "USB_5V"
-		(at 203.2 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce0731fc-13b1-4556-ad20-108590878d8f")
-	)
 	(label "USB1_GPIO3"
 		(at 121.92 48.26 180)
 		(effects
@@ -8779,7 +8769,7 @@
 		)
 		(uuid "22e06496-3e6f-45ed-b58a-3f0eccdfa823")
 	)
-	(hierarchical_label "USB_5V"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 146.05 110.49 180)
 		(effects
@@ -8877,6 +8867,17 @@
 			(justify left)
 		)
 		(uuid "47db554d-8546-4d8a-89f8-81e17542a39e")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 193.04 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52e4715f-d7b3-4403-872e-94efa507ee7c")
 	)
 	(hierarchical_label "USB0.SSRX_P"
 		(shape input)
@@ -9340,7 +9341,7 @@
 		)
 		(uuid "f4062055-5bc0-4a1e-8fb7-1b1fdfe456cc")
 	)
-	(hierarchical_label "USB_5V"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 142.24 13.97 180)
 		(effects
