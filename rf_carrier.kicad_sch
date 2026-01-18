@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 78.74 66.04) (xy 91.44 66.04)
+			(xy 78.74 72.39) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 63.5) (xy 91.44 63.5)
+			(xy 78.74 69.85) (xy 91.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(sheet
 		(at 48.26 25.4)
-		(size 30.48 54.61)
+		(size 30.48 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "SoM_Connectors.kicad_sch"
-			(at 48.26 80.5946 0)
+			(at 48.26 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,7 +80,7 @@
 			)
 		)
 		(pin "I2C1_SCK" input
-			(at 78.74 53.34 0)
+			(at 78.74 59.69 0)
 			(uuid "79e28eed-22fd-4162-97c2-738de4ca60b2")
 			(effects
 				(font
@@ -90,7 +90,7 @@
 			)
 		)
 		(pin "I2C1_SDA" input
-			(at 78.74 55.88 0)
+			(at 78.74 62.23 0)
 			(uuid "fc5ca636-088a-4847-a09c-03db0a86632e")
 			(effects
 				(font
@@ -100,7 +100,7 @@
 			)
 		)
 		(pin "PCIE_EP_RST" input
-			(at 78.74 69.85 0)
+			(at 78.74 78.74 0)
 			(uuid "d660f13f-3e9f-427c-aa7e-3c341e39edd8")
 			(effects
 				(font
@@ -319,9 +319,29 @@
 				(justify left)
 			)
 		)
-		(pin "JTAG" input
+		(pin "I2C0_SCK" input
+			(at 78.74 53.34 0)
+			(uuid "23884ccf-9d35-43b7-82e7-60f72545436a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" input
+			(at 78.74 55.88 0)
+			(uuid "0f124506-d21b-451c-adc1-3ef1399b1a4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG{JTAG}" input
 			(at 48.26 49.53 180)
-			(uuid "bb0ac413-a748-4c9a-ac62-9830cc62dd34")
+			(uuid "9c03d914-b228-4a9d-921d-5b19ec9f24e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,9 +349,19 @@
 				(justify left)
 			)
 		)
+		(pin "USB_RESET" input
+			(at 78.74 74.93 0)
+			(uuid "3f7b177c-f65c-4e6d-9673-3a14457b9214")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "GEM1{RGMII}" input
-			(at 78.74 59.69 0)
-			(uuid "7c744e21-8dc7-4974-a7b1-ddc7a2151c8c")
+			(at 78.74 66.04 0)
+			(uuid "fa168cd6-022b-4656-b446-1d19caa059b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,8 +370,8 @@
 			)
 		)
 		(pin "PCIE0{PCIE}" input
-			(at 78.74 73.66 0)
-			(uuid "87c0b17d-a5f5-40bb-810f-fb26c5ec83ff")
+			(at 78.74 81.28 0)
+			(uuid "920cdf5a-d1d2-4962-932b-aaa7517e4f3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,8 +380,8 @@
 			)
 		)
 		(pin "PCIE1{PCIE}" input
-			(at 78.74 76.2 0)
-			(uuid "efa38acf-5efe-4697-a7c1-c346fd4d3e41")
+			(at 78.74 83.82 0)
+			(uuid "f1441add-65dc-4fe5-930f-1ed0bd73f8a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,8 +390,8 @@
 			)
 		)
 		(pin "USB0{USB}" input
-			(at 78.74 63.5 0)
-			(uuid "d468ac5a-ab1a-48bb-8623-2e837dfeb100")
+			(at 78.74 69.85 0)
+			(uuid "225728dd-7046-4470-a82a-f46a6fea570c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -370,8 +400,8 @@
 			)
 		)
 		(pin "USB1{USB}" input
-			(at 78.74 66.04 0)
-			(uuid "5ccd39fe-99cd-4ef9-80bd-aa62c6c99900")
+			(at 78.74 72.39 0)
+			(uuid "a4b6aca0-97fb-418a-9947-672f3e574914")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,7 +418,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 60.96)
+		(at 91.44 67.31)
 		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -404,7 +434,7 @@
 		)
 		(uuid "695dbaa7-e029-4db6-9fc9-de61d9600c0e")
 		(property "Sheetname" "USB"
-			(at 91.44 60.2484 0)
+			(at 91.44 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,7 +443,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 91.44 79.3246 0)
+			(at 91.44 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +452,7 @@
 			)
 		)
 		(pin "USB0{USB}" input
-			(at 91.44 63.5 180)
+			(at 91.44 69.85 180)
 			(uuid "ed46b584-e0d3-431f-812d-0fcae8b17f40")
 			(effects
 				(font
@@ -432,7 +462,7 @@
 			)
 		)
 		(pin "USB1{USB}" input
-			(at 91.44 66.04 180)
+			(at 91.44 72.39 180)
 			(uuid "cd23604b-923e-42a0-87ae-00d19d71db3b")
 			(effects
 				(font
