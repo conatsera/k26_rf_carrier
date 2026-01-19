@@ -8899,7 +8899,7 @@
 			)
 			(justify right)
 		)
-		(uuid "54deba1f-5199-456a-9f1f-ab5d3cf21b5a")
+		(uuid "54deba1f-5199-456a-9f1f-ab5d3cf21b5b")
 	)
 	(hierarchical_label "USB0.SSTX_N"
 		(shape input)
@@ -8910,7 +8910,7 @@
 			)
 			(justify right)
 		)
-		(uuid "54deba1f-5199-456a-9f1f-ab5d3cf21b5a")
+		(uuid "54deba1f-5199-456a-9f1f-ab5d3cf21b5c")
 	)
 	(hierarchical_label "USB0.SSTX_P"
 		(shape input)
@@ -8921,7 +8921,7 @@
 			)
 			(justify right)
 		)
-		(uuid "54deba1f-5199-456a-9f1f-ab5d3cf21b5a")
+		(uuid "54deba1f-5199-456a-9f1f-ab5d3cf21b5d")
 	)
 	(hierarchical_label "PWR_GPIO4"
 		(shape input)

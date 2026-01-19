@@ -16367,7 +16367,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d86c2e1f-631c-4e19-a4f1-72545e1eb6ed")
+		(uuid "d86c2e1f-631c-4e19-a4f1-72545e1eb6ee")
 	)
 	(hierarchical_label "PMU_PWROFF"
 		(shape input)

@@ -647,6 +647,14 @@
     [
       "49ed3ec2-cbf7-466b-bf88-35a82be5eec3",
       "Connectors"
+    ],
+    [
+      "e569deef-b2ee-4a2b-a78c-15764dbf13be",
+      "Battery Charger"
+    ],
+    [
+      "1476c3ff-ed28-4f47-9d43-741d666076e1",
+      "Power"
     ]
   ],
   "text_variables": {}

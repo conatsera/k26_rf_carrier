@@ -3284,7 +3284,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "784b2243-449b-4e26-b4b5-14a9ac79ad76")
+		(uuid "784b2243-449b-4e26-b4b5-14a9ac79ad77")
 	)
 	(label "USB1.SSRX_N"
 		(at 105.41 121.92 0)
